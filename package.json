@@ -1,0 +1,12 @@
+{
+  "name": "decl-example",
+  "version": "1.0.0",
+  "description": "",
+  "license": "ISC",
+  "private": true,
+  "workspaces": [
+    "./packages/package-one",
+    "./packages/package-two"
+  ],
+  "type": "module"
+}

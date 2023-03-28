@@ -1,0 +1,14 @@
+{
+  "name": "package-one",
+  "version": "1.0.0",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "npx buf generate && npx tsc --project tsconfig.json --outDir ./dist --declaration"
+  },
+  "license": "ISC",
+  "dependencies": {
+    "@bufbuild/buf": "^1.15.0-1",
+    "@bufbuild/protoc-gen-es": "^1.2.0"
+  }
+}
